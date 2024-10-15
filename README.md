@@ -50,12 +50,12 @@ You need to have **Python 3.x** installed on your machine. No additional librari
 3. **Running the Server**: Open a terminal and run the server script:
     ```bash
     python server.py
-
-The server will start and listen for incoming connections.
-
+    
+The server will start and listen to incoming connections.
 4. **Running the Client**: Open another terminal (or use a different machine) and run the client script:
     ```bash
     python client.py
+
 
 The client will connect to the server and send a message. You should see a response from the server in the client terminal.
 
@@ -64,15 +64,15 @@ Here is an example of how the server and client will interact:
 
 ### Server Output:
 
-Server started and listening...
-Client connected from ('127.0.0.1', 54321)
-Received message: "Hello from the client!"
-Sent response: "Message received: Hello from the client!"
+- Server started and listening...
+- Client connected from ('127.0.0.1', 54321)
+- Received message: "Hello from the client!"
+- Sent response: "Message received: Hello from the client!"
 
 ### Client Output:
-Connected to the server at 127.0.0.1:8080
-Sent: Hello from the client!
-Received: Message received: Hello from the client!
+- Connected to the server at 127.0.0.1:8080
+- Sent: Hello from the client!
+- Received: Message received: Hello from the client!
 
 # Customization
 **IP Address**: By default, the server listens on localhost (127.0.0.1). If you want to make the server accessible from other machines in your network, change the IP address in the server.py file.
@@ -90,10 +90,10 @@ By following and running this project, you should learn:
 # Expanding the Project
 Once you’re familiar with this basic client-server interaction, here are some ideas to expand the project:
 
-    - Implement multithreading on the server to handle multiple clients simultaneously.
-    - Add encryption to the data being transmitted to improve security.
-    - Explore HTTP protocols by building a simple web server and client.
-    - Handle larger data such as file transfers between the client and server.
+- Implement multithreading on the server to handle multiple clients simultaneously.
+- Add encryption to the data being transmitted to improve security.
+- Explore HTTP protocols by building a simple web server and client.
+- Handle larger data such as file transfers between the client and server.
 
 # Contributing
 Feel free to fork this repository and submit pull requests if you have suggestions or improvements!
