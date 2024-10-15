@@ -41,7 +41,7 @@ You need to have **Python 3.x** installed on your machine. No additional librari
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/python-client-server-app.git
+   git clone https://github.com/HoujouSxnnyside/client-server-4-students.git
 
 2. **Navigate to the directory**:
     ```bash
