@@ -51,7 +51,7 @@ You need to have **Python 3.x** installed on your machine. No additional librari
     ```bash
     python server.py
 
-    The server will start and listen for incoming connections.
+The server will start and listen for incoming connections.
 
 4. **Running the Client**: Open another terminal (or use a different machine) and run the client script:
     ```bash
